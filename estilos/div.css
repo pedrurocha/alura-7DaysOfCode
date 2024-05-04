@@ -1,0 +1,41 @@
+.div{
+    display: flex;
+    margin: 4em 1em 0 1em;
+    align-items: center;
+}
+
+.div div {
+    flex-direction: column;
+    padding: 1em 1em 1em 1em;
+}
+
+.div p {
+  flex-wrap: wrap;
+}
+
+.div__p {
+    color: var(--preto);
+    margin: 2em 0 0.3em 0;
+    font-weight: 600;
+    font-size: 1em;
+    transition: font-size 0.3s ease; 
+}
+
+.div__p:hover {
+    font-size: 1.2em;
+}
+
+.div div h2 {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    font-family: var(--fonte);
+    transition: font-size 0.3s ease; 
+}
+
+
+.div div h2:hover {
+    font-size: 72px;
+    margin: 0 2em 0 0;
+}
+

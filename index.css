@@ -1,0 +1,53 @@
+@import url("estilos/header.css");
+@import url("estilos/section.css");
+@import url("estilos/div.css");
+@import url("estilos/div_vagas.css");
+@import url("estilos/ul.css");
+@import url("estilos/informação.css");
+@import url("estilos/footer.css");
+
+:root {
+    --branco-principal: rgba(255, 255, 255, 1);
+    --vermelho: rgba(142, 36, 36, 1);
+    --preto: rgba(16, 24, 40, 1);
+    --cinza: rgba(102, 112, 133, 1);
+
+    --fonte: "Inter", sans-serif;
+}
+
+body {
+    background-color:  var(--branco-principal);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    color: var(--cinza);
+
+font-family: var(--fonte);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+
+}
+a {
+    text-decoration: none;
+    
+font-family: var(--fonte);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--preto);
+
+    font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}

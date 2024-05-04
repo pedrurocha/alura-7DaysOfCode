@@ -1,0 +1,27 @@
+.section__p {
+    color: var(--vermelho);
+    margin: 0 14em 1.5em;
+    font-weight: 600;
+}
+
+section {
+    margin: 3em 31em;
+}
+
+section div {
+    padding: 0 auto;
+}
+
+section div h1 {
+    font-size: 42px;
+    margin: 0 1em 0 1em 1em;
+    padding: 0 1em 1em 0;
+    font-weight:600;
+    transition: font-size 0.3s ease; 
+    width: 500px;
+}
+
+section div h1:hover {
+    font-size: 43px;
+}
+

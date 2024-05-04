@@ -1,0 +1,95 @@
+.div-vagas__p {
+    background-color: rgba(142, 36, 36, 0.05);
+    margin: 4em 700px;
+    border: 18px;
+    border-radius: 10px;
+    color: var(--vermelho);
+
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+margin-bottom: 14px;
+transition: font-size 0.3s ease; 
+
+}
+
+.div-vagas__p:hover{
+    font-size: 16px;
+}
+
+.div__vagas div h2{
+font-family: "Inter", sans-serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align: center;
+transition: font-size 0.3s ease; 
+}
+
+.div__vagas div h2:hover {
+    font-size: 40px;
+}
+
+.div__vagas div p {
+font-family: "Inter", sans-serif ;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin: 1em 0 3em;
+
+}
+
+.img__vagas {
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 230px;
+    right: 210px;
+    background-color: var(--vermelho);
+    overflow: hidden;
+    width: 70%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family:"Inter", sans-serif ;
+  }
+
+  
+.container {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+  }

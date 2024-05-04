@@ -1,0 +1,48 @@
+.informação {
+    background-color: rgba(195, 25, 25, 0.03);
+    border: 1px;
+    border-radius: 18px;
+padding: 64px 0px 0px 0px;
+gap: 32px;
+opacity: 0px;
+
+margin: 0 12em 0 13em;
+
+padding-bottom: 2em;
+
+height: 18em;
+}
+
+.informação__p {
+color: var(--vermelho);
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+
+}
+
+.informação__h3 {
+font-family: "Inter", sans-serif;
+font-size: 36px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align: center;
+margin-bottom: 1.5em;
+margin-top: 0.8em;
+}
+
+.informação__p-2, .informação__p-3{
+    text-align: center;
+}
+
+.informação img {
+    margin: 0 33em;
+    margin-bottom: 1em;
+}
+
+.informação__p-2{
+    color: var(--preto);
+}

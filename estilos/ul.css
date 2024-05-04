@@ -1,0 +1,50 @@
+div ul li h3 {
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+margin: 2.5em 19.5em 1em;
+}
+
+div ul li h4 {
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+margin: 0 452px;
+}
+
+div ul li div p {
+    margin: 0 453px;
+}
+
+div ul li div {
+    border: 1px solid rgb(219, 220, 222);
+    border-radius: 24px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
+
+
+    transition: font-size 0.3s ease; 
+    height: 136px;
+    width: 768px;
+}
+
+div ul li h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    margin: 0 2%;
+}
+
+div ul li div p {
+    margin: 0 2%;
+    word-wrap: break-word; 
+    margin-top: 3em;
+}
